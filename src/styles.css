@@ -1,0 +1,46 @@
+body {
+    font-family: 'Dosis', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 395px;
+    margin-top: 30px;
+    border: 1px solid black;
+    padding: 100px;
+    background: #e9d8fb;
+}
+
+input, .error-message {
+    font-size: 20px;
+}
+
+form {
+    height: 50px;
+}
+
+.timezone-select {
+    font-size: 16px;
+}
+
+.timezone-form {
+    display: flex;
+    flex-direction: column;
+}    
+
+.error-message {
+    color: #b22222;
+}

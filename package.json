@@ -1,0 +1,27 @@
+{
+  "name": "technical-challenge-user-registration-wizard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "apollo-boost": "0.1.10",
+    "graphql": "0.13.2",
+    "graphql-tag": "2.9.2",
+    "prop-types": "15.6.2",
+    "react": "16.3.2",
+    "react-apollo": "2.1.9",
+    "react-dom": "16.3.2",
+    "react-router-dom": "4.3.1",
+    "style.css": "^1.0.0",
+    "timezones.json": "^1.4.5",
+    "tz-ids": "1.0.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": []
+}
